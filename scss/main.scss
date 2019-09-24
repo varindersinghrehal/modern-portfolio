@@ -24,6 +24,7 @@ h3 {
 
   &.lg-heading {
     font-size: 6rem;
+    color: aquamarine;
   }
 
   &.sm-heading {
@@ -45,7 +46,7 @@ header {
 }
 
 .text-secondary {
-  color: $secondary-color;
+  color: lawngreen;
 }
 
 main {
@@ -172,7 +173,7 @@ main {
 .btn-dark {
   @extend .btn;
   background: darken($primary-color, 50);
-  color: #fff;
+  color: aqua;
 }
 
 .btn-light {
